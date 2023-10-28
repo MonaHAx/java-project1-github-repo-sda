@@ -56,7 +56,7 @@ The system allows managers to promote their events by providing event descriptio
 2-Get event by platform<br>
 3- Post new event<br>
 4- Delete event<br>
-5-Put player information</p>
+5-Put event information</p>
 </blockquote>
 <h2 id="installation">Installation</h2>
 <p>This project requires three programs to use:<br>
