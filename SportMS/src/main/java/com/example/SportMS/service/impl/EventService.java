@@ -32,4 +32,14 @@ public class EventService implements IEventService {
         eventRepository.deleteById(id);
 
     }
+
+    @Override
+    public Event getEventById(Long id) {
+        Optional<Event> eventOptional = eventRepository.findById(id);
+        if (eventOptional.isEmpty())throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Event " + id + " not found");
+        return eventOptional.get();
+
+    }
+
+
 }

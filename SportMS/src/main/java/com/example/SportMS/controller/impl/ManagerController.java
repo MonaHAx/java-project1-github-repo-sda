@@ -1,6 +1,7 @@
 package com.example.SportMS.controller.impl;
 
 import com.example.SportMS.controller.dto.ManagerDTO;
+import com.example.SportMS.model.Event;
 import com.example.SportMS.model.Manager;
 import com.example.SportMS.repository.ManagerRepository;
 import com.example.SportMS.service.interfaces.IManagerService;
@@ -28,6 +29,10 @@ public class ManagerController  {
         return managerRepository.findAll();
     }
 
+    @GetMapping("/manager/{id}")
+    public Manager getManagertById(@PathVariable(name = "id") Integer id ) {
+        return managerService.getManagerById(id);
+    }
 
 //--------------------------POST-------------------
     @PostMapping("/manager")

@@ -35,7 +35,6 @@ public class PlayerService implements IPlayerService {
     @Override
     public Player getPlayerById(Long id) {
         Optional<Player> playerOptional = playerRepository.findById(id);
-       // if (playerOptional.isEmpty()) return null;
         if (playerOptional.isEmpty())throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Player " + id + " not found");
         return playerOptional.get();
     }

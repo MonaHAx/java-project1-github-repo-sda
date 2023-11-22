@@ -32,6 +32,11 @@ public class EventController {
         return eventRepository.getByPlatform(platform);
     }
 
+    @GetMapping("/event/{id}")
+    public Event getEventById(@PathVariable(name = "id") Long id ) {
+        return iEventService.getEventById(id);
+    }
+
 //--------------------------POST-------------------
 
     @PostMapping("/event")
