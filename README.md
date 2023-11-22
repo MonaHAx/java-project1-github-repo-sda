@@ -82,6 +82,8 @@ The system allows managers to promote their events by providing event descriptio
 <p><a href="https://www.tabnine.com/code/java/classes/javax.validation.constraints.Digits">Java validation</a></p>
 <h2 id="project-presentation">Project presentation</h2>
 <p><a href="https://www.canva.com/design/DAFyf1srgO8/vn_gAuX7iiygCJRc-NXiHw/view?utm_content=DAFyf1srgO8&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=editor">Project presentation</a></p>
+<h2> Front-end Project </h2>
+<p>https://github.com/MonaHAx/Final-Java-Angular-9w-GitHub-repo </p>
 <h2 id="created-by">Created by</h2>
 <p>Mona Hassan</p>
 
